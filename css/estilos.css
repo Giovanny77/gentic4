@@ -175,10 +175,11 @@ video {
   position: relative;
   z-index: 1; /* mantiene el icono y el texto encima del radius funciona si o si con position relative*/
   transition: all 500ms;
+  color:#0e046b8a ;
 }
 
 .box .icon{
-  font-size: 100px;
+  font-size: 50px;
   color: rgba(0, 255, 42, 0.788);
   transform: translateY(30px);
 
