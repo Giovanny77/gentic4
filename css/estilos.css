@@ -8,8 +8,10 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #f7f331;
+
+  background: linear-gradient(rgb(70, 68, 221),rgb(170, 52, 238), rgb(53, 36, 206));
   
-  background: radial-gradient(rgb(0, 119, 255), rgb(31, 85, 235), rgb(30, 144, 255));
+ /* background: radial-gradient(rgb(0, 119, 255), rgb(31, 85, 235), rgb(30, 144, 255));*/
 
   /*background: radial-gradient(rgb(36, 148, 223), rgb(31, 85, 235), rgb(224, 67, 245));*/
 
@@ -196,13 +198,16 @@ video {
 /* ********FORMACION********* */
 .tituloForma{
   min-height: 12vh;
+  min-width: 10vw;
+  font-size: 3.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 
   /*background: -webkit-radial-gradient(#560e86, #19012b);*/
 
-  font-size: 55pt;
+  /*font-size: 55pt;*/
+  
   font-weight: bold;
   position: relative;
   font-family: "Fredoka One";
@@ -238,6 +243,7 @@ video {
 
 .tituloForma span:nth-child(1){
   color: #2989e4;
+  
 }
 
 .tituloForma span:nth-child(2){
@@ -278,13 +284,16 @@ video {
 
 .tituloTrabajo{
   min-height: 12vh;
+  min-width: 10vw;
+  font-size: 3.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 
   /*background: -webkit-radial-gradient(#560e86, #19012b);*/
 
-  font-size: 55pt;
+  /*font-size: 55pt;*/
+  
   font-weight: bold;
   position: relative;
   font-family: "Fredoka One";
@@ -364,13 +373,16 @@ video {
 
 .tituloReconocimiento{
   min-height: 12vh;
+  min-width: 10vw;
+  font-size: 3.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 
   /*background: -webkit-radial-gradient(#560e86, #19012b);*/
 
-  font-size: 50pt;
+  /*font-size: 55pt;*/
+  
   font-weight: bold;
   position: relative;
   font-family: "Fredoka One";
@@ -450,13 +462,16 @@ video {
 
 .tituloOpiniones{
   min-height: 12vh;
+  min-width: 10vw;
+  font-size: 3.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
 
   /*background: -webkit-radial-gradient(#560e86, #19012b);*/
 
-  font-size: 50pt;
+  /*font-size: 55pt;*/
+  
   font-weight: bold;
   position: relative;
   font-family: "Fredoka One";
@@ -837,7 +852,7 @@ video {
   position: absolute;
   top: 0;
   right: 0;
-  background: linear-gradient(rgba(50, 205, 50,0.3), rgba(31, 85, 235,1));
+  background: linear-gradient(rgba(55, 21, 243, 0.3), rgb(70, 68, 221));
 }
 .contenedor_img{
   width: 100%;
@@ -851,6 +866,8 @@ video {
   font-size: 2em;
   
 }
+
+
 
 
 
