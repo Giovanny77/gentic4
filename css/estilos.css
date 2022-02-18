@@ -9,8 +9,9 @@ body {
   padding-bottom: 3rem;
   color: #f7f331;
 
-  background: linear-gradient(rgb(70, 68, 221),rgb(170, 52, 238), rgb(53, 36, 206));
+  /*background: linear-gradient(rgb(70, 68, 221),rgb(170, 52, 238), rgb(53, 36, 206));*/
   
+  background: linear-gradient(rgb(0, 0, 8),rgb(0, 0, 0), rgb(0, 0, 0));
  /* background: radial-gradient(rgb(0, 119, 255), rgb(31, 85, 235), rgb(30, 144, 255));*/
 
   /*background: radial-gradient(rgb(36, 148, 223), rgb(31, 85, 235), rgb(224, 67, 245));*/
@@ -19,7 +20,9 @@ body {
 }
 
 .bg-dark {
-  background-color: #170bbb!important;
+  /*background-color: #170bbb!important;*/
+
+  background-color: #201c1c!important;
  
 }
 
